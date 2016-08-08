@@ -1,3 +1,8 @@
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/github/souche/aliyun-ons-ruby-sdk/master)
+[![Gem Version](http://img.shields.io/gem/v/mahoujin.svg)](https://rubygems.org/gems/ons)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://souche.mit-license.org/)
+
+
 # Ons
 
 unoffical aliyun ONS sdk (ruby version)
@@ -25,10 +30,7 @@ $ apt-get install libboost-all-dev
 ### install ons
 
 ```sh
-$ git clone https://github.com/souche/aliyun-ons-ruby-sdk.git
-$ cd ons
-$ ./bin/setup
-$ ./bin/rake install
+$ gem install ons
 ```
 
 ## Usage
