@@ -1,0 +1,15 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+/ext/ons/mkmf.log
+/ext/ons/Makefile
+/ext/ons/*.o
+/ext/ons/*.so
+/lib/ons/ons.so
