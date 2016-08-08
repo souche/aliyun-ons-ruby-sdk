@@ -25,7 +25,7 @@ $ apt-get install libboost-all-dev
 ### 安装 ons
 
 ```sh
-$ git clone <git-repository>
+$ git clone https://github.com/souche/aliyun-ons-ruby-sdk.git
 $ cd ons
 $ ./bin/setup
 $ ./bin/rake install
