@@ -7,8 +7,7 @@ require 'ons/version'
 Gem::Specification.new do |spec|
   spec.name          = 'ons'
   spec.version       = Ons::VERSION
-  spec.authors       = ['caochaoping']
-  spec.email         = ['caochaoping@souche.com']
+  spec.authors       = 'souche'
 
   spec.summary       = 'unoffical aliyun ONS sdk (ruby version)'
   spec.description   = 'unoffical aliyun ONS sdk (ruby version).'

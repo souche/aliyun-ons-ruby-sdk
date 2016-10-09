@@ -83,3 +83,7 @@ consumer.shutdown
 ```
 
 更多用法，请参考 {file:samples/consumer.rb} 及 API 文档
+
+### 整合到 Rails 项目
+
+推荐使用 [ons_on_rails](https://github.com/souche/ons_on_rails)
