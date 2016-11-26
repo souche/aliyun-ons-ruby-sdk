@@ -4,7 +4,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ons/version'
 
-Gem::Specification.new do |spec|
+Gem::Specification.new do |spec| # rubocop: disable Metrics/BlockLength
   spec.name          = 'ons'
   spec.version       = Ons::VERSION
   spec.authors       = 'souche'
@@ -33,8 +33,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.12'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop', '~> 0.41'
-  spec.add_development_dependency 'rubocop-rspec', '~> 1.5'
+  spec.add_development_dependency 'rubocop', '~> 0.45'
+  spec.add_development_dependency 'rubocop-rspec', '~> 1.8'
   spec.add_development_dependency 'rake-compiler', '~> 1.0'
   spec.add_development_dependency 'yard', '~> 0.9'
   spec.add_development_dependency 'concurrent-ruby', '~> 1.0'
