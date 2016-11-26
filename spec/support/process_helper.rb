@@ -4,7 +4,7 @@ module Ons
   module RSpec
     module ProcessHelper
       def run_ruby_process(inner_code)
-        file = Tempfile.open { |f| f.write(_code(inner_code)) && f }
+        file = Tempfile.open('ons-rspec-') { |f| f.write(_code(inner_code)) && f }
         Process.wait(spawn(RbConfig.ruby, file.path))
       end
 

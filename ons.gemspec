@@ -36,6 +36,7 @@ Gem::Specification.new do |spec| # rubocop: disable Metrics/BlockLength
   spec.add_development_dependency 'rubocop', '~> 0.45'
   spec.add_development_dependency 'rubocop-rspec', '~> 1.8'
   spec.add_development_dependency 'rake-compiler', '~> 1.0'
+  spec.add_development_dependency 'wwtd', '~> 1.3'
   spec.add_development_dependency 'yard', '~> 0.9'
   spec.add_development_dependency 'concurrent-ruby', '~> 1.0'
 end
